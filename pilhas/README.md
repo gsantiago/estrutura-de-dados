@@ -38,4 +38,4 @@ No exercício 1, é implementado `void stack_reverse(Stack *stack);`.
 
 No exercício 2, é implementado `void stack_swap_top_and_bottom(Stack *stack);`.
 
-No exercício 3, é implementado `` 
+No exercício 3, é implementado `void stack_sort_odd_and_even(Stack *stack);`. 
