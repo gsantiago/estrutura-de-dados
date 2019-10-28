@@ -6,6 +6,7 @@
     "ex1": "gcc -c stack.c; gcc -c ex1.c; gcc stack.o ex1.o -o ex1; ./ex1; rm ./ex1 ./ex1.o ./stack.o",
     "ex2": "gcc -c stack.c; gcc -c ex2.c; gcc stack.o ex2.o -o ex2; ./ex2; rm ./ex2 ./ex2.o ./stack.o",
     "ex3": "gcc -c stack.c; gcc -c ex3.c; gcc stack.o ex3.o -o ex3; ./ex3; rm ./ex3 ./ex3.o ./stack.o",
-    "ex4": "gcc -c stack_chars.c; gcc -c ex4.c; gcc stack_chars.o ex4.o -o ex4; ./ex4; rm ./ex4 ./ex4.o ./stack_chars.o"
+    "ex4": "gcc -c stack_chars.c; gcc -c ex4.c; gcc stack_chars.o ex4.o -o ex4; ./ex4; rm ./ex4 ./ex4.o ./stack_chars.o",
+    "ex5": "gcc -c stack_chars.c; gcc -c ex5.c; gcc stack_chars.o ex5.o -o ex5; ./ex5; rm ./ex5 ./ex5.o ./stack_chars.o"
   }
 }
