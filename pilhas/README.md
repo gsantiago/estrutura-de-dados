@@ -14,6 +14,7 @@ o último item a entrar é o primeiro a sair.
 3) Dada uma pilha contendo números inteiros quaisquer, construir uma
    função que coloca os pares na base da pilha e os ímpares no topo da
    pilha. Usar duas pilhas como auxiliares.
+4) Escreva um algoritmo que use uma pilha para inverter a ordem das letras de cada palavra de uma string ASCII, preservando a ordem das palavras. Por exemplo, para a string  ESTE EXERCICIO E MUITO FACIL  o resultado deve ser  ETSE OICICREXE E OTIUM LICAF.
 
 ## Stack
 
@@ -34,8 +35,9 @@ int stack_stackpop(Stack *stack);
 void stack_print(Stack *stack);
 ```
 
-No exercício 1, é implementado `void stack_reverse(Stack *stack);`.
+Implementações de cada exercício:
 
-No exercício 2, é implementado `void stack_swap_top_and_bottom(Stack *stack);`.
-
-No exercício 3, é implementado `void stack_sort_odd_and_even(Stack *stack);`. 
+1) `void stack_reverse(Stack *stack)` para inverter uma pilha de inteiros.
+2) `void stack_swap_top_and_bottom(Stack *stack)` para trocar o topo e a base de uma pilha.
+3) `void stack_sort_odd_and_even(Stack *stack)` para separar os inteiros pares de ímpares numa pilha.
+4) `void reverse_words(Stack *stack, char *string)` para inverter as palavras (e não a ordem delas) de uma string.
