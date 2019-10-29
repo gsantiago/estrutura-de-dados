@@ -17,6 +17,7 @@ o último item a entrar é o primeiro a sair.
 4) Escreva um algoritmo que use uma pilha para inverter a ordem das letras de cada palavra de uma string ASCII, preservando a ordem das palavras. Por exemplo, para a string  ESTE EXERCICIO E MUITO FACIL  o resultado deve ser  ETSE OICICREXE E OTIUM LICAF.
 5) Crie uma função que valide se expressões com parênteses e colchetes está bem formada. `( ( ) [ ( ) ] )` está bem formada, enquanto que `( ( ) ][ ( ) )` não está.
 6) Implemente uma função para executar expressões pós-fixa, como `2 2 + 8 4 - *`.
+7) Considere uma pilha que armazene caracteres.  Escreva uma função que verifique se uma palavra é um palíndromo.
 
 ## Stack
 
@@ -43,3 +44,6 @@ Implementações de cada exercício:
 2) `void stack_swap_top_and_bottom(Stack *stack)` para trocar o topo e a base de uma pilha.
 3) `void stack_sort_odd_and_even(Stack *stack)` para separar os inteiros pares de ímpares numa pilha.
 4) `void reverse_words(Stack *stack, char *string)` para inverter as palavras (e não a ordem delas) de uma string.
+5) `bool is_expression_correct(char *string)` para verificar se uma string com parênteses e colchetes está bem formada.
+6) `int evaluate_expression(char *expression)` para calcular o resultado de uma expressão pós-fixa.
+7) `bool is_palindrome (char *string)` para verificar se a string é um palíndromo.

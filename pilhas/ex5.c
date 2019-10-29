@@ -3,24 +3,24 @@
 #include <assert.h>
 #include "stack_chars.h"
 
-bool bem_formada(char string[]);
+bool is_expression_correct(char *string);
 
 int main () {
   // Expressões válidas
-  assert(bem_formada("()"));
-  assert(bem_formada("[]"));
-  assert(bem_formada("[()[()]]"));
-  assert(bem_formada("(()[()])"));
+  assert(is_expression_correct("()"));
+  assert(is_expression_correct("[]"));
+  assert(is_expression_correct("[()[()]]"));
+  assert(is_expression_correct("(()[()])"));
 
   // Expressões inválidas
-  assert(!bem_formada("())"));
-  assert(!bem_formada(")("));
-  assert(!bem_formada("]["));
-  assert(!bem_formada("([(]))"));
+  assert(!is_expression_correct("())"));
+  assert(!is_expression_correct(")("));
+  assert(!is_expression_correct("]["));
+  assert(!is_expression_correct("([(]))"));
   return 0;
 }
 
-bool bem_formada (char string[]) {
+bool is_expression_correct (char *string) {
   Stack stack;
   stack_init(&stack);
 
