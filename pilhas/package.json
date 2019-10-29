@@ -9,6 +9,7 @@
     "ex4": "gcc -c stack_chars.c; gcc -c ex4.c; gcc stack_chars.o ex4.o -o ex4; ./ex4; rm ./ex4 ./ex4.o ./stack_chars.o",
     "ex5": "gcc -c stack_chars.c; gcc -c ex5.c; gcc stack_chars.o ex5.o -o ex5; ./ex5; rm ./ex5 ./ex5.o ./stack_chars.o",
     "ex6": "gcc -c stack.c; gcc -c ex6.c; gcc stack.o ex6.o -o ex6; ./ex6; rm ./ex6 ./ex6.o ./stack.o",
-    "ex7": "gcc -c stack_chars.c; gcc -c ex7.c; gcc stack_chars.o ex7.o -o ex7; ./ex7; rm ./ex7 ./ex7.o ./stack_chars.o"
+    "ex7": "gcc -c stack_chars.c; gcc -c ex7.c; gcc stack_chars.o ex7.o -o ex7; ./ex7; rm ./ex7 ./ex7.o ./stack_chars.o",
+    "ex8": "gcc -c stack_chars.c; gcc -c ex8.c; gcc stack_chars.o ex8.o -o ex8; ./ex8; rm ./ex8 ./ex8.o ./stack_chars.o"
   }
 }

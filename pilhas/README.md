@@ -18,6 +18,7 @@ o último item a entrar é o primeiro a sair.
 5) Crie uma função que valide se expressões com parênteses e colchetes está bem formada. `( ( ) [ ( ) ] )` está bem formada, enquanto que `( ( ) ][ ( ) )` não está.
 6) Implemente uma função para executar expressões pós-fixa, como `2 2 + 8 4 - *`.
 7) Considere uma pilha que armazene caracteres.  Escreva uma função que verifique se uma palavra é um palíndromo.
+8) A conversão de números inteiros, na base 10, para outras bases numéricas se dá através de sucessivas divisões de um dado valor `n` pelo valor da base na qual se queira converter. Faça um programa para obter a conversão numérica, de acordo com a opção do usuário, utilizando a uma pilha:
 
 ## Stack
 
@@ -38,7 +39,7 @@ int stack_stackpop(Stack *stack);
 void stack_print(Stack *stack);
 ```
 
-Implementações de cada exercício:
+## Implementações de cada exercício
 
 1) `void stack_reverse(Stack *stack)` para inverter uma pilha de inteiros.
 2) `void stack_swap_top_and_bottom(Stack *stack)` para trocar o topo e a base de uma pilha.
@@ -47,3 +48,4 @@ Implementações de cada exercício:
 5) `bool is_expression_correct(char *string)` para verificar se uma string com parênteses e colchetes está bem formada.
 6) `int evaluate_expression(char *expression)` para calcular o resultado de uma expressão pós-fixa.
 7) `bool is_palindrome (char *string)` para verificar se a string é um palíndromo.
+8) `char* convert(int number, int base)` para retornar, em uma string, o número decimal convertido em outra base numérica.
