@@ -19,6 +19,9 @@ o último item a entrar é o primeiro a sair.
 6) Implemente uma função para executar expressões pós-fixa, como `2 2 + 8 4 - *`.
 7) Considere uma pilha que armazene caracteres.  Escreva uma função que verifique se uma palavra é um palíndromo.
 8) A conversão de números inteiros, na base 10, para outras bases numéricas se dá através de sucessivas divisões de um dado valor `n` pelo valor da base na qual se queira converter. Faça um programa para obter a conversão numérica, de acordo com a opção do usuário, utilizando a uma pilha:
+    - (a) Decimal para binário.
+    - (b) Decimal para octal.
+    - (c) Decimal para hexadecimal.
 
 ## Stack
 
