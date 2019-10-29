@@ -16,6 +16,7 @@ o último item a entrar é o primeiro a sair.
    pilha. Usar duas pilhas como auxiliares.
 4) Escreva um algoritmo que use uma pilha para inverter a ordem das letras de cada palavra de uma string ASCII, preservando a ordem das palavras. Por exemplo, para a string  ESTE EXERCICIO E MUITO FACIL  o resultado deve ser  ETSE OICICREXE E OTIUM LICAF.
 5) Crie uma função que valide se expressões com parênteses e colchetes está bem formada. `( ( ) [ ( ) ] )` está bem formada, enquanto que `( ( ) ][ ( ) )` não está.
+6) Implemente uma função para executar expressões pós-fixa, como `2 2 + 8 4 - *`.
 
 ## Stack
 
