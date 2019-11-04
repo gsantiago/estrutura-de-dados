@@ -1,4 +1,4 @@
-all: main.program ex1.program ex2.program ex3.program ex4.program ex5.program ex6.program ex7.program ex8.program ex9.program
+all: main.program ex1.program ex2.program ex3.program ex4.program ex5.program ex6.program ex7.program ex8.program
 
 # includes
 stack.o: stack.c stack.h
@@ -89,15 +89,6 @@ ex8.program: ex8.o stack_chars.o
 
 ex8.o: ex8.c stack_chars.h
 	gcc ex8.c -c
-
-ex9: ex9.program
-	./ex9.program
-
-ex9.program: ex9.o stack_chars.o
-	gcc ex9.o stack_chars.o -o ex9.program
-
-ex9.o: ex9.c stack_chars.h
-	gcc ex9.c -c
 
 # clean
 clean:

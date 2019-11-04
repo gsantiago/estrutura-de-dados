@@ -22,7 +22,6 @@ o último item a entrar é o primeiro a sair.
     - (a) Decimal para binário.
     - (b) Decimal para octal.
     - (c) Decimal para hexadecimal.
-9) Implemente uma função para transformar uma expressão infixa (`((A + B) * (C - D))`) para pós-fixa (`A B + C D - *`).
 
 ## Stack
 
